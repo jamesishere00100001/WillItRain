@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rubik-VariableFont_wght.ttf
+        case 200...232:
+            return &quot;stormBackground&quot;
+        case 300...321:
+            return &quot;rainBackground&quot;
+        case 500...531:
+            return &quot;rainBackground&quot;
+        case 600...622:
+            return &quot;snowBackground&quot;
+        case 701...781:
+            return &quot;cloudBackground&quot;
+        case 800:
+            return &quot;sunBackground&quot;
+        case 801...804:
+            return &quot;cloudBackground&quot;
+        default:
+            return &quot;cloudBackground&quot;
+        }</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please allow location to check the weather in this area.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
